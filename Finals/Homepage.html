@@ -15,38 +15,75 @@
 </head>
 <body>
     <div class="navbar-fixed">
-        <nav class="blue darken-1 white-text">
+        <nav class="blue darken-1 white-text" target="_blank">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="https://www.facebook.com/profile.php?id=100084876242616&mibextid=ZbWKwL" class="brand-logo">
-                        <i class="fa-solid fa-house-chimney"> DDRCS 
-                        </i>
+                    <a href="Homepage.html" class="brand-logo">
+                        <img src="images/1.png" alt="" style="max-width: 130px; margin-top: 5px;">
                     </a>
-                    <ul class="right hide-on-med-and-down">
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><i class="fa-solid fa-bars"></i></i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li>
-                            <a href="" class="white-text">Services</a>
-                        </li>
+                            <a href="" target="_blank">Services</a></li>
                         <li>
-                            <a href="" class="white-text"> Portfolio</a>
-                        </li>
+                                <a href="" target="_blank">Porfolio</a></li>  
                         <li>
-                            <a href="" class="white-text">About</a>
-                        </li>
+                            <a href="" target="_blank">About</a></li>
                         <li>
-                            <a href="" class="white-text">Client Reviews</a>
-                        </li>
+                            <a href="" target="_blank">Client Reviews</a></li>
                         <li>
-                            <a href="" class="white-text">Contact Us</a>
-                        </li>
-    
+                        <li>
+                            <a href="" target="_blank">Contact Us</a></li>
+                        <li>
                 </div>
             </div>
         </nav>
+        <ul class="sidenav blue darken-4" id="mobile-demo">
+            <li><a href="" class="white-text" style="margin-top: 100px;">Services</a></li>
+            <li><a href="" class="white-text">Portfolio</a></li>
+            <li><a href="" class="white-text">About</a></li>
+            <li><a href="" class="white-text">Client Reviews</a></li>
+            <li><a href="" class="white-text">Contact Us</a></li>
+          </ul>
+
+          
+    
     </div>
+    <br><br><br><br>
+        <!-- Slider -->
+        <div class="wrapper">
+            <div class="carousel">
+                <img src="images/Jepoy.png" alt="img" style="max-height: 400px;">
+                <img src="images/11.png" alt="img" style="max-height: 400px;">
+                <img src="images/2.png" alt="img" style="max-height: 400px;">
+                <img src="images/3.png" alt="img" style="max-height: 400px;">
+                <img src="images/4.png" alt="img" style="max-height: 400px;">
+                <img src="images/5.png" alt="img" style="max-height: 400px;">
+                <img src="images/7.png" alt="img" style="max-height: 400px;">
+                <img src="images/8.png" alt="img" style="max-height: 400px;">
+            </div>
+        </div>
+    </div>
+    <div style="height: 1000px;"></div>
+    
     
     <!-- Jquery CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+     <!-- SideNAv -->
+    <script>
+    $(document).ready(function() {
+        $('.tabs').tabs(); $('.sidenav').sidenav();
+
+        //Slider//
+        $('.slider').slider();
+
+        // Dropdown Init //
+        $('.dropdown-trigger') .dropdown();
+    })</script>
+
 </body>
 </html>
