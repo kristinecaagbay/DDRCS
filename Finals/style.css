@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #90caf9;
+}
+.wrapper{
+    max-width: 1200px;
+}
+.wrapper .carousel{
+    white-space: nowrap;
+}
+.carousel img{
+    height: 340px;
+    object-fit: cover;
+    width: calc(100% /3);
+}
 
 h1,h2,h3,h4,h5,h6,p {
     font-weight: 200;
