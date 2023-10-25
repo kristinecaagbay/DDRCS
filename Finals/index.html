@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link -->
+    <script src="https://kit.fontawesome.com/11d13cee1d.js" crossorigin="anonymous"></script>
+    <!-- Font awesome CDNJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Material Icons Link -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script type="text/javascript" 
+    src="https://code.jquery.com/jquery-1.12.0.min.js"> 
+    </script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body class="blue lighten-4">
+    <!-- Header -->
+    <header class="main-header">
+        <div class="navbar-fixed">
+            <nav class="blue darken-3 white-text" target="_blank">
+                <div class="container">
+                    
+                    <div class="nav-wrapper">
+                        <a href="" class="brand-logo">
+                            <img src="images/1.png" alt="" style="max-width: 130px; margin-top: 5px;">
+                        </a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons"><i class="fa-solid fa-bars"></i></i></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li>
+                                <a href="Services.html" target="">Services</a></li>
+                            <li>
+                                    <a href="Portfolio.html" target="">Porfolio</a></li>  
+                            <li>
+                                <a href="About.html" target="">About</a></li>
+                            <li>
+                                <a href="Client.html" target="">Client Reviews</a></li>
+                            <li>
+                            <li>
+                                <a href="Contact.html" target="">Contact Us</a></li>
+                            <li>
+                    </div>
+                </div>
+            </nav>
+            <ul class="sidenav blue darken-4" id="mobile-demo">
+                <li><a href="Services.html" class="white-text" style="margin-top: 100px;">Services</a></li>
+                <li><a href="Portfolio.html" class="white-text">Portfolio</a></li>
+                <li><a href="About.html" class="white-text">About</a></li>
+                <li><a href="Client.html" class="white-text">Client Reviews</a></li>
+                <li><a href="Contact.html" class="white-text">Contact Us</a></li>
+              </ul>
+              
+            </div>
+            
+        </div>
+
+    </header>
+    
+    </div>
+    <a href="https://www.facebook.com/profile.php?id=100084876242616&mibextid=ZbWKwL">
+        <img src="images/cover.png" alt="img" class="materialboxed responsive-img " style="width: 100%; height: 675px;">
+    
+<div class="card-panel blue darken-1 white-text" style="margin-top: 0%;">
+    <h5 class="center">"Designing Excellence, Building Dreams, and Transforming Visions into Reality: Welcome to Dada Renz Construction Services"</h5>
+</div>
+
+    <!-- Slider -->
+    <div class="carousel">
+        <h2 class="blue-text darken-4 center">"Showcase of Excellence: Our Construction Projects"</h2>
+        <a href="#one!" class="carousel-item">
+            <img src="images/Jepoy.jpg" alt="" class="materialboxed responsive-img" >  
+        <a href="#two!" class="carousel-item">
+            <img src="images/9.jpg" alt="" class="materialboxed responsive-img">  
+        <a href="#three!" class="carousel-item">
+            <img src="images/10.jpg" alt="" class="materialboxed responsive-img" >  
+        <a href="#four!" class="carousel-item">
+            <img src="images/8.png" alt="" class="materialboxed responsive-img" >  
+        </a>
+        <a href="#five!" class="carousel-item">
+            <img src="images/7.png" alt="" class="materialboxed responsive-img">  
+        </a>
+        <a href="#six!" class="carousel-item">
+            <img src="images/11.png" alt="" class="materialboxed responsive-img">  
+        </a>
+        
+        <br><br><br><br><br>
+        
+        
+    </div>
+        <div class="container">
+            
+            <br>
+            <h5>Welcome to Our Showcase of Excellence</h5>
+            <p>Discover the heart and soul of Dada Renz Construction Services in our "Showcase of Excellence." These are more than just projects; they are the embodiment of our commitment to quality, innovation, and turning dreams into reality. Explore with us and be inspired.</p>
+            <br>
+
+            
+
+        </div>
+
+        <!-- Footer -->
+       <div class="footer blue darken-3">
+        
+        <p class="white-text credentials center center-align">
+            ⓒ2022 DDRCS. All rights reserved.
+        </p>
+       </div>
+
+
+        
+    
+    
+    
+    
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!-- SideNAv -->
+    <script>
+    $(document).ready(function() {
+        $('.tabs').tabs(); $('.sidenav').sidenav();
+
+        //Slider//
+        $('.slider').slider();
+
+        // Carousel //
+       $('.carousel').carousel({
+        
+        indicators: true
+       });
+
+       
+       setInterval(function(){
+        $('.carousel').carousel('next');
+       },3000);
+    })</script>
+
+</body>
+</html>
